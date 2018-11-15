@@ -4,6 +4,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 
 
@@ -17,6 +18,7 @@ import { HomeComponent } from './home/home.component';
     HomeComponent
   ],
   imports: [
+    NgxGalleryModule,
     BrowserModule,
     NgbModule, BrowserAnimationsModule,
     CalendarModule.forRoot({
