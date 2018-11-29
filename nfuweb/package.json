@@ -30,6 +30,7 @@
     "ngx-gallery": "^5.8.1",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.3.3",
+    "slick-carousel": "^1.8.1",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
